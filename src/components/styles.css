@@ -1,0 +1,36 @@
+.containerTech {
+  display: flex;
+  flex: 1 1 500px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contentTech {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 5px 10px;
+  border: solid 2px #ccc;
+  padding: 10px;
+}
+
+.containerTech button {
+  align-self: flex-end;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  color: #ffff;
+  border: solid 1px transparent;
+  border-radius: 10px;
+}
+
+.containerTech strong {
+  color: black;
+}
+
+.containerTech span {
+  color: gray;
+  margin-top: 20px;
+}
